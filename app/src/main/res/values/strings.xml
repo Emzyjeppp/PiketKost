@@ -1,0 +1,84 @@
+<!--
+  ~   Copyright 2020 The Android Open Source Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+<resources>
+    <string name="app_name">LaporPiketHarianKost</string>
+    <string name="app_tagline">Aplikasi Pelaporan Piket Harian Kost</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="confirm_password">Konfirmasi kata sandi</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_in_guest">Masuk Sebagai Tamu</string>
+    <string name="sign_in_create_account">Masuk atau buat akun</string>
+    <string name="or">atau</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="user_continue">Lanjut</string>
+    <string name="create_account">Buat akun</string>
+    <string name="terms_and_conditions">Dengan melanjutkan, Anda menyetujui Ketentuan Layanan kami. Kami akan
+        menangani data Anda sesuai dengan Kebijakan Privasi kami.</string>
+    <string name="feature_not_available">Fitur tidak tersedia</string>
+    <string name="dismiss">Tutup</string>
+    <string name="next">Selanjutnya</string>
+    <string name="previous">Sebelumnya</string>
+    <string name="done">Selesai</string>
+    <string name="back">Kembali</string>
+    <string name="close">Tutup</string>
+    <string name="show_password">Tampilkan kata sandi</string>
+    <string name="hide_password">Sembunyikan kata sandi</string>
+
+    <!-- survey-->
+    <string name="question_count">\u00A0dari %d</string>
+    <string name="select_one">Pilih salah satu.</string>
+    <string name="select_all">Pilih semua yang berlaku.</string>
+    <string name="select_date">Pilih tanggal.</string>
+
+    <!-- question 1-->
+    <string name="in_my_free_time">Bagian Mana Yang Anda Bersihkan Sesuai Jadwal Hari Ini? …</string>
+    <string name="read">Halaman Kost</string>
+    <string name="work_out">Kamar Mandi</string>
+    <string name="draw">Lantai Kost</string>
+    <string name="play_games">Pekarangan Kost</string>
+    <string name="dance">Bak Sampah Kost</string>
+    <string name="watch_movies">Dapur Kost</string>
+
+    <!-- question 2 -->
+    <string name="pick_superhero">Kapan Anda Membersihkannya?</string>
+    <string name="spark">Pagi</string>
+    <string name="lenz">Siang</string>
+    <string name="bugchaos">Sore</string>
+    <string name="frag">Malam</string>
+
+    <!-- question 3  -->
+    <string name="takeaway">Pada Tanggal Berapa Anda Melakukannya?</string>
+
+    <!-- question 4-->
+    <string name="selfies">Seberapa Menyenangkan Membersihkan Kost Bagi Anda?</string>
+
+    <!-- question 5-->
+    <string name="selfie_skills">Lampirkan Bukti Piket Anda!</string>
+    <string name="add_photo">TAMBAHKAN FOTO</string>
+    <string name="retake_photo">AMBIL ULANG FOTO</string>
+
+    <string name="survey_result_title">BAGUS!</string>
+    <string name="survey_result_subtitle">Selamat, Laporan Anda Berhasil</string>
+    <string name="survey_result_description">
+Kebersihan kost merupakan kunci kenyamanan, memerlukan peran aktif penghuni dalam menjaga kebersihan ruangan pribadi
+        dan fasilitas bersama agar lingkungan tetap bersih dan sehat.</string>
+    <string name="strongly_dislike">Sangat\nTidak Senang</string>
+    <string name="strongly_like">Sangat\nSenang</string>
+    <string name="neutral">Lumayan</string>
+</resources>
+
