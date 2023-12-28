@@ -17,6 +17,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+
+    // Tambahkan dependensi untuk plugin Gradle layanan Google
+    id("com.google.gms.google-services") version "4.4.0" apply false
 }
 
 android {
@@ -95,4 +98,14 @@ dependencies {
     testImplementation(libs.androidx.test.ext.truth)
     testImplementation(libs.robolectric)
 
+    // Impor Firebase BoM
+    val firebaseBom = platform("com.google.firebase:firebase-bom:32.7.0")
+    implementation(firebaseBom)
+
+    // TODO: Tambahkan dependensi untuk produk Firebase yang ingin Anda gunakan
+    // Saat menggunakan BoM, jangan tentukan versi pada dependensi Firebase
+    implementation("com.google.firebase:firebase-analytics")
+
+    // Tambahkan dependensi untuk produk Firebase lain yang diinginkan
+    // https://firebase.google.com/docs/android/setup#available-libraries
 }
